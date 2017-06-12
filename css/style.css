@@ -1,0 +1,385 @@
+    /* background color for header*/
+
+.navbar-default {
+  background-color: #DE8474;
+}
+
+
+/* background color for button*/
+
+.btn-info {
+  background-color: #DE8474;
+}
+
+.btn-info:hover {
+  background-color: #DE8474;
+}
+
+
+/* style for navigational link*/
+
+.navbar-nav li a {
+  color: white !important;
+  padding: 35px;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.image2 {
+  margin-left: 45%;
+}
+
+
+/* style for carousel images*/
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  width: 70%;
+  margin: auto;
+}
+
+.first {
+  font-weight: bold;
+}
+
+.form-inline {
+  margin-left: 5%;
+}
+
+P {
+  color: #8C290C;
+  font-family: Eagle Lake;
+  text-align: center;
+}
+
+
+/* style for promising images*/
+
+.image3 {
+  height: 150px;
+}
+
+
+/* style for flag images*/
+
+.image4 {
+  width: 75%;
+}
+
+
+/*.bdy{
+	background-image:url("images/j1.jpg");
+	background-repeat: x-repeat;
+
+	width:100%;
+	height:250px;
+}*/
+
+h1 {
+  text-align: center;
+  color: #DE8474;
+  font-family: Baloo Paaji;
+}
+
+h2 {
+  margin-left: 30%;
+  font-family: Croissant One;
+}
+
+h3 {
+  text-align: center;
+  font-family: Croissant One;
+}
+
+h4 {
+  text-align: center;
+  font-family: Fruktur;
+}
+
+h5 {
+  margin-left: 30%;
+  font-size: 150%;
+  font-family: Griffy;
+}
+
+.maincontainer {
+  margin-left: 10%;
+}
+
+
+/* style for carousel images*/
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  display: block;
+  max-width: 100%;
+  height: 250px;
+}
+
+
+/* footer style*/
+
+.foot {
+  text-align: center;
+}
+
+.copy {
+  font-size: 14px !important;
+  text-align: center;
+  color: #52527a;
+}
+
+#whatsapp {
+  font-size: 48px;
+  color: green;
+  margin-left: 1%;
+}
+
+#facebook {
+  font-size: 48px;
+  color: light blue;
+  margin-left: 38%;
+}
+
+#google {
+  font-size: 48px;
+  color: #ff3333;
+  margin-left: 1%;
+}
+
+#twitter {
+  font-size: 48px;
+  color: sky blue;
+  margin-left: 1%;
+}
+
+
+/*style for map*/
+
+.map {
+  width: 5%;
+}
+
+
+/* media query starts here*/
+
+@media screen and (max-width:1024px) {
+  p {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width:940px) {
+  .navbar-nav li a {
+    color: white !important;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .navbar .navbar-header .navbar-brand .image1 {
+    width: 12%;
+  }
+}
+
+@media screen and (max-width:677px) {
+  .image3 {
+    width: 60%;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h5 {
+    text-align: center;
+  }
+  p {
+    font-size: 14px;
+  }
+  #facebook {
+    font-size: 48px;
+    color: light blue;
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width:530px) {
+  .image2 {
+    width: 20%;
+  }
+  .image3 {
+    width: 100%;
+  }
+  .map {
+    width: 10%;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 12px;
+  }
+  #facebook {
+    font-size: 48px;
+    color: light blue;
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width:470px) {
+  .image3 {
+    width: 100%;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  h5 {
+    text-align: center;
+    font-size: 16px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .foot {
+    font-size: 15px !important;
+  }
+  #whatsapp {
+    font-size: 40px;
+    color: green;
+    margin-left: 1%;
+  }
+  #facebook {
+    font-size: 40px;
+    color: light blue;
+    margin-left: 30%;
+  }
+  #google {
+    font-size: 40px;
+    color: #ff3333;
+    margin-left: 1%;
+  }
+  #twitter {
+    font-size: 40px;
+    color: sky blue;
+    margin-left: 1%;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .image3 {
+    width: 100%;
+  }
+  h2 {
+    margin-left: 65px;
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 13px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 10px;
+  }
+  #whatsapp {
+    font-size: 38px;
+    color: green;
+    margin-left: 1%;
+  }
+  #facebook {
+    font-size: 38px;
+    color: light blue;
+    margin-left: 30%;
+  }
+  #google {
+    font-size: 38px;
+    color: #ff3333;
+    margin-left: 1%;
+  }
+  #twitter {
+    font-size: 38px;
+    color: sky blue;
+    margin-left: 1%;
+  }
+}
+
+@media screen and (max-width:355px) {
+  .image3 {
+    width: 80%;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 10px;
+  }
+  p {
+    font-size: 8px;
+  }
+  .copy {
+    font-size: 12px;
+  }
+  #facebook {
+    font-size: 38px;
+    color: light blue;
+    margin-left: 28%;
+  }
+  @media screen and (max-width:355px) {
+    .image3 {
+      width: 150%;
+    }
+    h3 {
+      font-size: 10px;
+    }
+    h5 {
+      font-size: 13px;
+    }
+    .copy {
+      font-size: 10px !important;
+    }
+    #whatsapp {
+      font-size: 35px;
+      color: green;
+      margin-left: 1%;
+    }
+    #facebook {
+      font-size: 35px;
+      color: light blue;
+      margin-left: 25%;
+    }
+    #google {
+      font-size: 35px;
+      color: #ff3333;
+      margin-left: 1%;
+    }
+    #twitter {
+      font-size: 35px;
+      color: sky blue;
+      margin-left: 1%;
+    }
+  }
+  @media screen and (max-width:300px) {
+    p {
+      font-size: 7px;
+    }
+    h2 {
+      font-size: 12px;
+    }

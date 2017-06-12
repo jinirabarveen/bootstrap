@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>redbus</title>
+  <!-- Bootstrap -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--linking external style sheet-->
+  <link href="css/style.css" rel="stylesheet">
+  <!--linking external style sheet-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <!--font-awesom-tag-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Atomic Age|Baloo Paaji|Croissant One|Fruktur|Eagle Lake|Griffy|Hanalei Fill">
+  <!--linking for google fonts-->
+</head>
+
+<body>
+
+  <h1>Redbus.in</h1>
+  <!--header starts here-->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- navigation button-->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#">BUS TICKETS</a></li>
+          <li><a href="#">HOTELS</a></li>
+          <li><a href="#">PILIGRIMS</a></li>
+          <li><a href="#">WEEKEND GATEWAYS</a></li>
+          <li><a href="#">LOGIN</a></li>
+          <li><a href="#">LOGOUT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--header ends here-->
+  <!-- my main page starts here-->
+  <!-- ticket booking starts here-->
+  <div class="container">
+    <div class="maincontainer">
+      <h1>Online Bus Ticketing With Free Booking Fees</h1>
+      <!-- ticket booking page-->
+      <form class="form-inline">
+        <div class="form-group">
+          <!-- source-->
+          <label for="sel1" id="from">From</label>
+          <select class="form-control" id="sel1">
+	  <option>Enter a city</option>
+        <option>Bangalore</option>
+        <option>kochi</option>
+        <option>Hyderabad</option>
+        <option>chennai</option>
+		 <option>Pune</option>
+		  <option>Delhi</option>
+		   <option>Calcutta</option>
+		    <option>Bombay</option>
+			 <option>Pondichery</option>
+			  <option>Patna</option>
+      </select>
+        </div>
+        <!-- destination-->
+        <div class="form-group">
+          <label for="sel1" id="from">To</label>
+          <select class="form-control" id="sel1">
+	  <option>Enter a city</option>
+        <option>Bangalore</option>
+        <option>kerala</option>
+        <option>Hyderabad</option>
+        <option>chennai</option>
+		 <option>Pune</option>
+		  <option>Delhi</option>
+		   <option>Calcutta</option>
+		    <option>Bombay</option>
+			 <option>Pondichery</option>
+			  <option>Patna</option>
+      </select>
+        </div>
+        <!-- date-->
+        JourneyDate:<input type="date" id="journeydate" value="JourneyDate" />
+        <button type="button" class="btn btn-info btn-lg buses" data-toggle="modal" data-target="#myModal">Search buses</button>
+        <!-- Modal -->
+        <!-- google map-->
+        <a href="https://www.google.co.in/maps"><img class="map" src="images/j21.png" /></a>
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Availabe Buses</h4>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li> SRS Travels <pre>  A/C sleeper 2+1  10.30pm  5.00am  INR 1200.00 </pre></li>
+
+
+                  <li> KPN Travels<pre>  NonA/C sleeper 2+1  08.30pm  4.00am  INR 800.00 </pre></li>
+                  <li> Parveen Travels<pre>  semi sleeper 2+2  9.00pm  5.30am  INR 770.00 </pre></li>
+                  <li> Orange Travels<pre>  A/C sleeper 2+1  7.30pm  9.00am  INR 1200.00 </pre></li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </div>
+
+    </form>
+  </div>
+  </div>
+
+  <!-- ticket booking ends here-->
+  <div class="container">
+    <br>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/j2.jpg" />
+        </div>
+
+        <div class="item">
+          <img src="images/j3.jpg" />
+        </div>
+
+        <div class="item">
+          <img src="images/j4.jpg" />
+        </div>
+
+        <div class="item">
+          <img src="images/j5.jpg" />
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- promises images statrs here-->
+  <div class="container">
+    <div class="jumbotron">
+      <img class="image2" src="images/j6.png" />
+      <h2>WE PROMISE TO DELIVER</h2></div>
+    <div class="container">
+      <div class="col-xs-3">
+        <img class="image3" src="images/j7.png" />
+        <h3>MAXIMUM CHOICE</h3>
+        <p>We give you the widest number of travel options across thousands of routes.</p>
+      </div>
+      <div class="col-xs-3">
+        <img class="image3" src="images/j8.png" />
+        <h3>CUSTOMER SERVICES</h3>
+        <p>We put our experience and relationships to good use and are available to solve your travel issues.</p>
+      </div>
+      <div class="col-xs-3">
+        <img class="image3" src="images/j9.png" />
+        <h3>LOWEST PRICES</h3>
+        <p>We always give you the lowest price with the best partner offers.</p>
+      </div>
+      <div class="col-xs-3">
+        <img class="image3" src="images/j10.png" />
+        <h3>UNMATCHED BENEFITS</h3>
+        <p>We take care of your travel beyond ticketing by providing you with innovative and unique benefits.</p>
+      </div>
+    </div>
+  </div>
+  <!-- promises images statrs here-->
+  <!-- Global presence of  my website-->
+  <div class="container">
+    <div class="jumbotron">
+      <h2>OUR GLOBAL PRESENCE</h2>
+    </div>
+
+    <div class=" col-xs-4 ">
+      <img class="image4" src="images/j11.jpg" />
+      <h4>INDIA</h4>
+    </div>
+    <div class=" col-xs-4">
+      <img class="image4" src="images/j18.jpg" />
+      <h4>MALASIYA</h4>
+    </div>
+    <div class=" col-xs-4">
+      <img class="image4" src="images/j13.jpg" />
+      <h4>COLOMBIA</h4>
+    </div>
+
+    <div class="col-xs-4">
+      <img class="image4" src="images/j14.jpg" />
+      <h4>PERU</h4>
+    </div>
+    <div class=" col-xs-4">
+      <img class="image4" src="images/j15.jpg" />
+      <h4>SINGAPORE</h4>
+    </div>
+    <div class=" col-xs-4">
+      <img class="image4" src="images/j16.jpg" />
+      <h4>INDONESIA</h4>
+    </div>
+  </div>
+  <!-- development of redbus-->
+  <div class="container">
+    <div class="jumbotron">
+      <h3>THE NUMBERS ARE GROWING</h3>
+    </div>
+    <div class="col-xs-4">
+      <h5>CUSTOMERS</h5>
+      <h1>08 M</h1>
+      <p>redBus is trusted by over 8 million happy customers globally</p>
+    </div>
+    <div class="col-xs-4">
+      <h5>OPERATORS</h5>
+      <h1>2300</h1>
+      <p>network of over 2300 bus operators worldwide</p>
+    </div>
+    <div class="col-xs-4">
+      <h5>TICKETS</h5>
+      <h1>75+M</h1>
+      <p>Over 75 million trips booked using redBus</p>
+    </div>
+  </div>
+  <!-- footer starts here-->
+  <div class="container-fluid">
+    <div class="jumbotron">
+      <p class="copy">copyrights&copy2017.All Rights Reserved</p>
+      <p class="foot">Stay With Us</p>
+      <a href="#"><i id="facebook" class="fa fa-facebook-square"></i>
+			<a href="#"><i id="google" class="fa fa-google-plus-circle"></i>
+			<a href="#"><i id="twitter" class="fa fa-twitter-square"></i>
+			<a href="#"><i id="whatsapp"class="fa fa-whatsapp"></i>
+			</div>
+	  </div>
+   <!-- footer ends  here-->
+  </body>
+</html>
+   
